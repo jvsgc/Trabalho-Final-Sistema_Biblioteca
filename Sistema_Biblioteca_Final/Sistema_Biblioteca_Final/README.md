@@ -82,26 +82,3 @@ O arquivo do banco e criado automaticamente dentro de `backend/data/` quando a A
 | GET/POST/PUT/DELETE | `/api/categorias` | Categorias |
 | GET/POST | `/api/emprestimos` | Historico e novo emprestimo |
 | PATCH | `/api/emprestimos/{id}/devolver` | Devolucao |
-
-## Roteiro para apresentacao
-
-1. Mostrar login com o usuario administrador.
-2. Apresentar o dashboard com os totais.
-3. Cadastrar uma categoria e um livro.
-4. Registrar um emprestimo e conferir a baixa no estoque.
-5. Devolver o emprestimo e conferir a atualizacao.
-6. Mostrar o diagrama do banco e explicar as tabelas `usuarios`, `categorias`, `livros` e `emprestimos`.
-7. Explicar que as rotas protegidas usam JWT e que algumas operacoes exigem perfil administrador.
-
-## GitHub
-
-Para entregar em repositorio, crie um repositorio no GitHub e envie esta pasta:
-
-```bash
-git init
-git add .
-git commit -m "Entrega final sistema biblioteca"
-git branch -M main
-git remote add origin URL_DO_REPOSITORIO
-git push -u origin main
-```
