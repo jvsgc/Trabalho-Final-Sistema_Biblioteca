@@ -82,3 +82,5 @@ O arquivo do banco e criado automaticamente dentro de `backend/data/` quando a A
 | GET/POST/PUT/DELETE | `/api/categorias` | Categorias |
 | GET/POST | `/api/emprestimos` | Historico e novo emprestimo |
 | PATCH | `/api/emprestimos/{id}/devolver` | Devolucao |
+
+
